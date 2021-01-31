@@ -87,7 +87,7 @@ const Timer = ({ workDuration, shortBreak, longBreak, numberOfSessions}) => {
 
   return (
     <Box size = "500px" position="relative" display="inline-flex">
-      <CircularProgress size="550px" variant="determinate" color={isComplete ? 'secondary' : color} value={ isComplete ? 100 : ((totalSeconds - progress) / totalSeconds) * 100} />
+      <CircularProgress size="40vh" variant="determinate" color={isComplete ? 'secondary' : color} value={ isComplete ? 100 : ((totalSeconds - progress) / totalSeconds) * 100} />
       <Box
         top={0}
         left={0}

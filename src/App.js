@@ -4,8 +4,10 @@ import Timer from './components/Timer';
 import { MuiThemeProvider } from '@material-ui/core';
 import { createMuiTheme } from '@material-ui/core/styles';
 import {
-  BrowserRouter as
-  useLocation
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
 } from "react-router-dom";
 
 
@@ -43,16 +45,30 @@ function App() {
   return (
     <MuiThemeProvider theme= {theme}  >
       <div className="App">
-        <header className="App-header">
-          <Timer 
-            workDuration={duration}
-            shortBreak={1}
-            longBreak={5}
-            numberOfSessions={5} />
-            {/* // shortBreak={query.get("short") > 0 ? query.get("short") : 5}
-            // longBreak={query.get("long") > 0 ? query.get("long") : 15}
-            // numberOfSessions={query.get("sessions") > 0 ? query.get("sessions") : 6}/> */}
-        </header>
+        <Router>
+          <Switch>
+            <Route exact path="/">
+              <header className="App-header">
+                <div>
+                  <Timer
+                    workDuration={duration}
+                    shortBreak={1}
+                    longBreak={5}
+                    numberOfSessions={5} />
+                </div>
+              </header>
+            </Route>
+            <Route path="/stream">
+              <div className="App-stream">
+              <Timer
+                workDuration={duration}
+                shortBreak={1}
+                longBreak={5}
+                numberOfSessions={5} />
+              </div>
+            </Route>
+          </Switch>
+        </Router>
       </div>
     </MuiThemeProvider>
   );
