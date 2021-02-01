@@ -1,5 +1,6 @@
+
 # Pomodoro Timer for Twitch, YouTube
-### https://pomo.justxn.com/
+Demo: https://pomo.justxn.com/
 
 As seen on my livestreams! 
 
@@ -22,4 +23,13 @@ Long Break: 17 minutes
 Sessions: 6
 ```
 https://pomo.justxn.com/?work=52&shortbreak=17&longbreak=17&sessions=6
+```
+
+### "Extend Pomodoro"
+Work duration: 45 minutes
+Short Break: 5 minutes
+Long Break: 20 minutes
+Sessions: 6
+```
+https://pomo.justxn.com/?work=45&shortbreak=5&longbreak=20&sessions=6
 ```
