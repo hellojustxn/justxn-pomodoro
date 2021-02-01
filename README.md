@@ -1,8 +1,9 @@
 
 # Pomodoro Timer for Twitch, YouTube
-Demo: https://pomo.justxn.com/
 
-As seen on my livestreams! 
+As seen on my livestreams! I made this since I couldn't find an aesthetically pleasing live stream timer that can automatically begin each session :( 
+
+Demo: https://pomo.justxn.com/
 
 # Features
 - Auto start timer! No setup required :)
