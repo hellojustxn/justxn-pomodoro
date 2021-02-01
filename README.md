@@ -7,11 +7,12 @@ Demo: https://pomo.justxn.com/
 
 # Features
 - Auto start timer! No setup required :)
+- Customizeable work and break durations
 - Default Values
--- Work: 25 minutes
--- Short break: 1 minutes
--- long break: 15 minutes (These occur every 4 intervals)
--- sessions: 6
+  - Work: 25 minutes
+  - Short break: 1 minutes
+  - long break: 15 minutes (These occur every 4 intervals)
+  - sessions: 6
 
 # Customizing Time Values
 
