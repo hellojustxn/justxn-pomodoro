@@ -1,5 +1,5 @@
 
-# Pomodoro Timer for Twitch, YouTube
+# Pomodoro Timer for Twitch, YouTube, OBS
 
 As seen on my livestreams! I made this since I couldn't find an aesthetically pleasing live stream timer that can automatically begin each session :( 
 
