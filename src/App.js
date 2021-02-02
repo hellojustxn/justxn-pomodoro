@@ -41,8 +41,8 @@ function App() {
   });
 
   var work = 25
-  var shortbreak = 1
-  var longbreak = 15
+  var shortbreak = 5
+  var longbreak = 20
   var sessions = 6
   var isStream = 0
 
