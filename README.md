@@ -5,7 +5,22 @@ As seen on my livestreams! I made this since I couldn't find an aesthetically pl
 
 Demo: https://pomo.justxn.com/
 
-# Features
+
+## Installation
+Clone the repo
+```
+git clone git@github.com:hellojustxn/justxn.com-pomodoro.git
+```
+Change directories into the cloned folder
+```
+cd justxn.com-pomodoro
+```
+Install dependencies and start the application
+```
+yarn install && yarn start
+```
+
+## Features
 - Auto start timer! No setup required :)
 - Customizeable work and break durations
 - Default Values
@@ -14,8 +29,7 @@ Demo: https://pomo.justxn.com/
   - long break: 15 minutes (These occur every 4 intervals)
   - sessions: 6
 
-# Customizing Time Values
-
+## Customizing Time Values
 Supports query parameters, here are a few examples.
 
 ### "Desktime" (Pomodoro Technique Variation)
