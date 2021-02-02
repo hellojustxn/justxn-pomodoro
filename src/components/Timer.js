@@ -4,9 +4,9 @@ import Box from '@material-ui/core/Box';
 import Typography from '@material-ui/core/Typography';
 
 const end = new Date()
-
+var duration = workDuration // 25 Minutes(s) Default
 const Timer = ({ workDuration, shortBreak, longBreak, numberOfSessions}) => {
-  var duration = workDuration // 25 Minutes(s) Default
+
   const SHORTBREAK = shortBreak
   const LONGBREAK = longBreak
   const WORK = workDuration
